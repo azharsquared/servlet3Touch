@@ -27,6 +27,15 @@
 			<param-value>fsaidaso asdas</param-value>
 		</init-param>
 	</servlet>
+	
+	<servlet>
+		<servlet-name>TaggedController</servlet-name>
+		<servlet-class>com.mantiso.TaggedController</servlet-class>
+	<!-- 	<init-param>
+			<param-name>ProductName</param-name>
+			<param-value>Yet Another Product Name</param-value>
+		</init-param> -->
+	</servlet>
 
 
 	<servlet-mapping>
@@ -39,7 +48,7 @@
 	</servlet-mapping>
 	<servlet-mapping>
 		<servlet-name>ControllerServlet</servlet-name>
-		<url-pattern>*.po</url-pattern>
+		<url-pattern>/users</url-pattern>
 	</servlet-mapping>
 
 	<error-page>

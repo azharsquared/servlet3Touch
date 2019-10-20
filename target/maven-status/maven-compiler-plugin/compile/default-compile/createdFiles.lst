@@ -1,3 +1,7 @@
+com\mantiso\TaggedController.class
+com\mantiso\dto\ApplicationSettings.class
+com\mantiso\dto\CssClass.class
 com\mantiso\ControllerServlet.class
-com\mantiso\User.class
+com\mantiso\dto\Tab.class
 com\mantiso\BlogController.class
+com\mantiso\User.class
